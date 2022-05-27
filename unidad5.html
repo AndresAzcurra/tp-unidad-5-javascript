@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        button{
+            background-color: rgb(193, 250, 250);
+        }
+        div{
+            border: solid 2px cornflowerblue;
+            padding-left: 3px;
+            padding-right: 3px;
+            margin-left: 3px;
+            margin-right: 3px;
+            margin: 3px;
+        }
+        div:hover {
+            color: cornflowerblue;
+        }
+        h1 ,h2 {text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: cornflowerblue;
+            text-decoration: underline;
+            
+
+        }
+        img {
+            width: 110px;
+            text-align: start;
+            position: absolute;
+        }
+        input{
+            color:brown;
+            background-color: rgb(247, 247, 136);
+        }
+    </style>
+    <title>Unidad 5</title>
+</head>
+<body>
+    
+    <img src="images.png" alt="logo javascript">
+    <h1>Unidad</h1>
+    <h2>Ejercicio 5-1</h2>
+    <div>
+        <h4>1. Crear un programa que me pida correo y contraseña, debe dar un alerta si los dos datos ingresados son validos
+            <button onclick="resolver()">Resolver ejercicio 1</button>
+        </h4>
+        <label for="correo">Correo:</label>
+        <input  id="correo" type="email" value="Correo">
+        <label for="contraseña">Contraseña:</label>
+        <input id="contra" type="text" value="Contraseña">
+    </div>
+    <div>
+        <h4>2. Crear un programa que solo permita ingresar a una persona a un bar si el usuario es mayor de 18 años y su color de remera es roja
+            <button onclick="resolverEjercicio2()">Resolver ejercico 2</button>
+        </h4>
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" value="Edad" id="edad">
+        <label for="color">Color de remera:</label>
+        <input type="text" name="color" value="Color de la remera" id="color">
+    </div>
+    <div>
+        <h4>
+            3. Crear un programa que pida dos notas, evalue el promedio. Debe mostrar un alerta de "Materia aprobada" si las dos primeras notas son mayores a 7 y si el promedio es mayor a 7
+            <button onclick="resolverEjercicio3()">Resolver ejercicio 3</button>
+        </h4>
+        <label for="nota1">Valor de la nota 1:</label>
+        <input type="text" name="nota1" value="Nota" id="nota1">
+        <label for="nota2">Valor de la nota 2:</label>
+        <input type="text" name="nota2"  value="Nota" id="nota2">
+        <label for="promedio">Promedio</label>
+        <input type="text" name="promedio" value="El promedio es " id="promedio">
+    </div>
+
+   
+
+
+    <script src="unidad5.js"></script>
+</body>
+
+</html>
